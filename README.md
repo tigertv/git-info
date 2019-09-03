@@ -9,4 +9,7 @@ Command                    | Description
 `git branch -d <branch>` | to delete a branch
 `git pull` | to pull changes from the remote repository
 `git push` | to push changes to the remote repository
+`git status` | to show status (changed files, files to add to the current commit 
+`git diff <filename>`| to show difference in the file between current and previous states 
+
 
