@@ -11,5 +11,7 @@ Command                    | Description
 `git push` | to push changes to the remote repository
 `git status` | to show status (changed files, files to add to the current commit 
 `git diff <filename>`| to show difference in the file between current and previous states 
+`git reflog expire --expire-unreachable=now --all` |  removes all references of unreachable commits in `reflog`
+`git gc --prune=now` | removes commits without references in `reflog`
 
 
