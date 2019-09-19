@@ -13,5 +13,5 @@ Command                    | Description
 `git diff <filename>`| to show difference in the file between current and previous states 
 `git reflog expire --expire-unreachable=now --all` |  removes all references of unreachable commits in `reflog`
 `git gc --prune=now` | removes commits without references in `reflog`
-
+`git rebase -i HEAD~3` | rebases the last 3 commits in the interactive mode 
 
